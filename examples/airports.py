@@ -7,6 +7,7 @@ import pprint
 
 
 def get_filename():
+    """Boilerplate to get the full path to our JSON file."""
     path_to_file = 'airports/airports.json'
     module_path = os.path.dirname(os.path.realpath(__file__))
     project_path = os.path.dirname(module_path)
@@ -14,12 +15,14 @@ def get_filename():
 
 
 def get_airports(filename):
+    """Iterate through the file and build the JSON object iteratively."""
     json_file = open(filename, 'rb')
     for airport in ijson.items(json_file, 'item'):
         yield airport
 
 
 def filter_airport(airport):
+    """Filter out airports."""
     iso_countries = set([
         "US",
         "CA"
@@ -39,6 +42,7 @@ def filter_airport(airport):
 
 
 def get_filtered_airports():
+    """Get a list of filtered airports."""
     filename = get_filename()
     airport_codes = {}
     for airport in itertools.ifilter(filter_airport, get_airports(filename)):
