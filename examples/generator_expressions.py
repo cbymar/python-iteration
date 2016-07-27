@@ -10,5 +10,6 @@ def generator_expression():
 if __name__ == '__main__':
     # The generator expression creates a generator object.
     print generator_expression()
+
     for x in generator_expression():
         print x

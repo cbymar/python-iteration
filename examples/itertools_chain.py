@@ -16,10 +16,6 @@ def chain_lists_together():
     print chain
     print list(chain)
 
-
-def ifilter_iterable():
-    iterable = [5, 10, 15, 20, 25, 30]
-
 if __name__ == '__main__':
     print concatenate_lists()
     chain_lists_together()
