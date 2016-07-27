@@ -18,3 +18,12 @@ at Code & Supply on Wednesday, July 27th, 2016.
    `$ pip install -r requirements.txt`
 
 4. Have fun! Also, I accept pull requests :).
+
+
+##Resources:
+- [My
+  talk](https://docs.google.com/presentation/d/1bC1IUY3BQcWHzRVblpmSBjYpHkcdhT9EUkcxNo2UUgY/edit?usp=sharing)
+- [itertools
+  recipes](https://docs.python.org/3.5/library/itertools.html#itertools-recipes)
+- [Airports-JSON repo](https://github.com/jbrooksuk/JSON-Airports/tree/master)
+- [ijson](https://pypi.python.org/pypi/ijson/)
