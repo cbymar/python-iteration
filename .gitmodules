@@ -1,0 +1,3 @@
+[submodule "airports"]
+	path = airports
+	url = git@github.com:jbrooksuk/JSON-Airports.git
