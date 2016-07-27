@@ -15,6 +15,6 @@ at Code & Supply on Wednesday, July 27th, 2016.
 
 3. Install any required packages:
 
-   `$ pip install -r requirements.txt`.
+   `$ pip install -r requirements.txt`
 
 4. Have fun! Also, I accept pull requests :).
